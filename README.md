@@ -1,3 +1,12 @@
+# CUSTOM BUILD FOR VISION
+
+First build and copy to vision project.
+```
+browserify custom.js -t [ babelify --presets [es2015] ] -o dist/vis-custom.js -s vis
+cp dist/vis-custom.js ./../vision-interface/src/scripts/
+```
+
+
 # vis.js (deprecated!)
 
 :exclamation: **This project is not maintained anymore! (See [Issue #4259](http://github.com/almende/vis/issues/4259#issue-412107497) for details)**<br/>**We welcome you to use the libraries from the [visjs community](https://www.github.com/visjs) from now on.**
