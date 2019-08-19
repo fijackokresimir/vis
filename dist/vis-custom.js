@@ -9104,10 +9104,10 @@ CustomTime.prototype._create = function () {
 
   var drag = document.createElement('div');
   drag.style.position = 'absolute';
-  drag.style.bottom = '-5px';
-  drag.style.left = '-15px';
-  drag.style.height = '20px';
-  drag.style.width = '30px';
+  drag.style.bottom = '-10px';
+  drag.style.left = '-10px';
+  drag.style.height = 'calc(100% + 10px)';
+  drag.style.width = '20px';
   drag.style.zIndex = '99999';
 
   /**
