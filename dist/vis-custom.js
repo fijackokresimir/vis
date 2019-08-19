@@ -14807,7 +14807,9 @@ RangeItem.prototype.repositionX = function (limitSize) {
           contentStartPosition = -contentWidth; // ensure it's not visible anymore
         }
       } else {
-        if (start < 0) {
+        // eslint-disable-next-line no-constant-condition
+        if (false && start < 0) {
+          //HACK by valentin - for faces timeline
           contentStartPosition = -start;
         } else {
           contentStartPosition = 0;
